@@ -128,4 +128,4 @@ cp.getHEX();
 // List of all html nodes of picker
 cp.markup
 ```
-
+[Examples](http://modor.ru/)
