@@ -1,6 +1,8 @@
 # Colorpicker
 Pure javascript color picker with flexible functionality. Only JS and CSS. IE8+
 
+Online examples at [http://modor.ru/colorpicker](http://modor.ru/colorpicker)
+
 ## Documentation
 
 #### Create new object and show colorpicker
@@ -128,4 +130,3 @@ cp.getHEX();
 // List of all html nodes of picker
 cp.markup
 ```
-[Examples](http://modor.ru/)
