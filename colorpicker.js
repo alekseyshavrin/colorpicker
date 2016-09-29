@@ -331,7 +331,9 @@
 				x: undefined,
 				y: undefined
 			};
-			E.on(win, 'resize', function() {cp.state.isShown && cp.align()});
+			E.on(win, 'resize', function() {
+				cp.state.isShown && cp.isDefaultContainer === true && cp.align();
+			});
 			E.on(doc, 'mouseup', function() {
 				mouseDown.state = false, mouseDown.targetKey = mouseDown.x = mouseDown.y = undefined;
 			});
@@ -428,7 +430,7 @@
 				this.markup.container.appendChild(this.markup.wrapper);
 				if ( this.isDefaultContainer === true ) {
 					doc.getElementsByTagName('body')[0].appendChild(this.markup.container);
-					this.align();
+					 this.isDefaultContainer === true && this.align();
 				}
 				this.state.isShown = true;
 				this.applyStateHsv();
