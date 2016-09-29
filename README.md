@@ -3,13 +3,13 @@ Pure javascript color picker with flexible functionality. Only JS and CSS. IE8+
 
 ## Documentation
 
-##### Create new object and show colorpicker
+#### Create new object and show colorpicker
 
 ```js
 new Colorpicker().show()
 ```
 
-##### Set source color
+#### Set source color
 
 ```js
 // Hex model. Full format.
@@ -25,7 +25,7 @@ new Colorpicker().set('rgb(53,136,200)').show()
 new Colorpicker().set([53,136,200]).show()
 ```
 
-##### Event listeners
+#### Event listeners
 
 ```js
 var cp = new Colorpicker().set('rgb(53,136,200)').show();
@@ -51,7 +51,7 @@ cp.on('cancel', function(color) {
 });
 ```
 
-##### Custom container instead default
+#### Custom container instead default
 
 ```js
 // Element:
@@ -62,7 +62,7 @@ var element = document.getElementById('customContainer'),
 var cp = new Colorpicker('#customContainer').show();
 ```
 
-##### Customizable options
+#### Customizable options
 
 ```js
 var options = {
@@ -76,7 +76,7 @@ var cp = new Colorpicker('#customContainer', options).show();
 var cp = new Colorpicker(options).show();
 ```
 
-##### Full list of options
+#### Full list of options
 
 ```js
 var cp = new Colorpicker({
@@ -108,7 +108,7 @@ var cp = new Colorpicker({
 });
 ```
 
-##### Methods and properties
+#### Methods and properties
 
 ```js
 var cp = new Colorpicker();
