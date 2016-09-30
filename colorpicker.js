@@ -577,11 +577,11 @@
 	CP.prototype = C;
 	var cp = new CP();
 	cp.construct();
-	this.markup = cp.markup;
 	this.show 	= function() {cp.show(); return this};
 	this.hide 	= function() {E.trigger('cancel', cp.getCancelColor()); cp.hide(); return this};
 	this.set 	= function(data) {cp.set(data); return this};
 	this.getRGB = function() {return cp.toRgbString( cp.hsvToRgb(cp.state.hsv) )};
 	this.getHEX = function() {return cp.rgbToHex( cp.hsvToRgb(cp.state.hsv) )};
 	this.on 	= function(eventName, handler) {E.register(eventName, handler); return this};
+	this.getMarkup = function() {return cp.markup};
 }
