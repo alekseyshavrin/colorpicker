@@ -5,13 +5,13 @@ Online examples at [http://modor.ru/colorpicker](http://modor.ru/colorpicker)
 
 ## Documentation
 
-#### Create new object and show colorpicker
+#### Create a new object and show the color picker
 
 ```js
 new Colorpicker().show()
 ```
 
-#### Set source color
+#### Set a source color
 
 ```js
 // Hex model. Full format.
@@ -78,7 +78,7 @@ var cp = new Colorpicker('#customContainer', options).show();
 var cp = new Colorpicker(options).show();
 ```
 
-#### A example of specifying all options
+#### Full list of the options
 
 ```js
 var cp = new Colorpicker({
@@ -127,6 +127,6 @@ cp.getRGB()
 
 cp.getHEX()
 
-// Retrieve the object with a full list of the DOM elements of color picker
+// Retrieve the object with a full list of the DOM elements of the color picker
 cp.getMarkup()
 ```
