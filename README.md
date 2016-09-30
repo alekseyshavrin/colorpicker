@@ -78,7 +78,7 @@ var cp = new Colorpicker('#customContainer', options).show();
 var cp = new Colorpicker(options).show();
 ```
 
-#### Full list of options
+#### A example of specifying all options
 
 ```js
 var cp = new Colorpicker({
@@ -110,23 +110,23 @@ var cp = new Colorpicker({
 });
 ```
 
-#### Methods and properties
+#### API
 
 ```js
 var cp = new Colorpicker();
 
-cp.set( color );
+cp.set( color )
 
-cp.show();
+cp.show()
 
-cp.hide();
+cp.hide()
 
-cp.on( eventName, callback );
+cp.on( eventName, callback )
 
-cp.getRGB();
+cp.getRGB()
 
-cp.getHEX();
+cp.getHEX()
 
-// List of all html nodes of picker
-cp.markup
+// Retrieve the object with a full list of the DOM elements of color picker
+cp.getMarkup()
 ```
