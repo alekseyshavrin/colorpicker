@@ -1,7 +1,7 @@
 # Colorpicker
 Pure javascript color picker with flexible functionality. Only JS and CSS. IE8+
 
-Online examples at [http://modor.ru/colorpicker](http://modor.ru/colorpicker)
+Online examples at [http://modor.ru/colorpicker](http://alekseyshavrin.com/colorpicker/)
 
 ## Documentation
 
